@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS repositories (
+    full_name TEXT PRIMARY KEY,
+    stars INTEGER NOT NULL,
+    last_crawled TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);

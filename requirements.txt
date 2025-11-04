@@ -1,0 +1,5 @@
+gql
+requests
+python-dotenv
+SQLAlchemy
+pg8000
